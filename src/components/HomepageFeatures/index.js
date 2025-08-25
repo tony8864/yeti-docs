@@ -4,32 +4,32 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Scenario Testing Made Simple',
+    Svg: require('@site/static/img/yeti_scenario.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Define real workflows
+        in a few lines of Java. Readable, reusable, and CI-friendly.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Reusable Endpoints & Data',
+    Svg: require('@site/static/img/yeti_reusable.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Register endpoints and input data once, 
+        then reuse them across all your scenarios 
+        without copy-pasting JSON everywhere.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Works Anywhere',
+    Svg: require('@site/static/img/yeti_integration.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Powered by Spring WebClient, YetiFramework runs locally or in any standard Java build pipeline.
       </>
     ),
   },
