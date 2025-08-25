@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'YetiFramework',
   tagline: 'Scenario-based API testing for Java',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/yeti_logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
