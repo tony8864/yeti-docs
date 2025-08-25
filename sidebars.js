@@ -21,7 +21,12 @@ const sidebars = {
       type: 'category',
       label: 'Core Concepts',
       items: [
-        'core_concepts/scenario'
+        'core_concepts/scenario',
+        'core_concepts/step',
+        'core_concepts/variable_context',
+        'core_concepts/extractor',
+        'core_concepts/endpoint_registry',
+        'core_concepts/data_registry'
       ],
     },
   ],
