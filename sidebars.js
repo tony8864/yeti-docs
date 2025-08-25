@@ -29,6 +29,15 @@ const sidebars = {
         'core_concepts/data_registry'
       ],
     },
+    {
+      type: 'category',
+      label: 'Application Layer',
+      items: [
+        'application-layer/scenario-executor',
+        'application-layer/step-runner',
+        'application-layer/http-executor',
+      ],
+    },
   ],
    
 };
