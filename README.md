@@ -1,41 +1,29 @@
-# Website
+# YetiFramework Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This is the official documentation site for **[YetiFramework](https://yetiframework.com)** —  
+a lightweight Java framework for scenario-based API testing.
 
-## Installation
+The site is built with [Docusaurus](https://docusaurus.io/) and hosted on Netlify.
 
-```bash
-yarn
-```
+---
 
-## Local Development
+## 🚀 Live Site
 
-```bash
-yarn start
-```
+👉 [https://yetiframework.com](https://yetiframework.com)
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+---
 
-## Build
+## 📖 About YetiFramework
 
-```bash
-yarn build
-```
+YetiFramework makes it easy to test real API workflows such as:
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+create user → fetch user → update user → delete user
 
-## Deployment
+Features:
+- Register endpoints once and reuse them in tests.
+- Define reusable test data.
+- Compose scenarios as ordered steps.
+- Extract values from responses and pass them to later steps.
+- Run locally or in CI/CD pipelines.
 
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Check out the [Introduction](https://yetiframework.com/docs/intro) and [Core Concepts](https://yetiframework.com/docs/core_concepts/scenario) to get started.

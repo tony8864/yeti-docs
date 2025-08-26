@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'YetiFramework',
-  tagline: 'Scenario-based API testing for Java',
+ tagline: 'Scenario-based API testing for Java<br/>A simple, yet efficient testing infrastructure',
   favicon: 'img/yeti_logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future

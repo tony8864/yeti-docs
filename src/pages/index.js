@@ -15,7 +15,11 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p className="hero__subtitle">
+          Scenario-based API testing for Java
+          <br />
+          A simple, Yet Efficient Testing Infrastructure
+        </p>
       </div>
     </header>
   );
